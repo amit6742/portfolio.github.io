@@ -98,10 +98,11 @@ section {
     align-items: center;
     padding: 0 9%;
     /* background: url('/daniel-lincoln-NR705beN_CU-unsplash).jpg') no-repeat; */
-    background: url('/Picsart_23-06-30_19-48-47-701.jpg') no-repeat; 
+    background: url('/portfolio.github.io/home.jpg') no-repeat; 
     background-size: cover;
     background-position: center;
-  
+    background-size: contain;
+  background-position: 115%;
 
 }
 
@@ -235,8 +236,8 @@ section {
 
 .home-sci {
     position: absolute;
-    bottom: 4rem;
-    width: 170px;
+    bottom: 2rem;
+    width: 250px;
     display: flex;
     justify-content: space-between;
 }
@@ -284,7 +285,7 @@ section {
     position: absolute;
     top: 0;
     right: 0;
-    width: 45%;
+    width: 60%;
     height: 100%;
     background: transparent;
     transition: 3s;
@@ -612,30 +613,38 @@ span{
 
 }
 
-/* coding skills css */
+/* frontend technology skills css */
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(1) .bar span{
-    width: 95%;
+    width: 90%;
 
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(2) .bar span{
-    width: 50%;
+    width: 75%;
 
 }
 
 .skills-column:nth-child(1) .skills-content .progress:nth-child(3) .bar span{
-    width: 50%;
+    width: 85%;
 
 }
 .skills-column:nth-child(1) .skills-content .progress:nth-child(4) .bar span{
     width: 60%;
 
 }
+.skills-column:nth-child(1) .skills-content .progress:nth-child(5) .bar span{
+    width: 75%;
 
-/* professional skills css */
+}
+.skills-column:nth-child(1) .skills-content .progress:nth-child(6) .bar span{
+    width: 60%;
+
+}
+
+/* backend technology skills css */
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(1) .bar span{
-    width: 90%;
+    width: 70%;
 
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(2) .bar span{
@@ -644,11 +653,19 @@ span{
 }
 
 .skills-column:nth-child(2) .skills-content .progress:nth-child(3) .bar span{
-    width: 50%;
+    width: 80%;
 
 }
 .skills-column:nth-child(2) .skills-content .progress:nth-child(4) .bar span{
-    width: 40%;
+    width: 90%;
+
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(5) .bar span{
+    width: 75%;
+
+}
+.skills-column:nth-child(2) .skills-content .progress:nth-child(6) .bar span{
+    width: 70%;
 
 }
 
